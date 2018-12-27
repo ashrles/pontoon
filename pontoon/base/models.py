@@ -1880,6 +1880,7 @@ class Resource(models.Model):
         ('lang', 'lang'),
         ('po', 'po'),
         ('properties', 'properties'),
+        ('qlang', 'qlang'),
         ('xlf', 'xliff'),
         ('xliff', 'xliff'),
         ('xml', 'xml'),
@@ -1900,6 +1901,7 @@ class Resource(models.Model):
         'ini',
         'json',
         'properties',
+        'qlang',
         'xml',
     )
 
